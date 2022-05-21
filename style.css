@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-agape-nav{
+  width: 10%;
+}
+
+.titre{
+  width: 40%;
+}
+/* Toggle */
+
+/* .toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+} */
+
+.showcase
+{
+  /* position: absolute; */
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: #03a9f4; */
+  mix-blend-mode: overlay;
+}
+.text
+{
+  margin: 0 auto;
+  text-align: center;
+  /* position: relative; */
+  z-index: 1;
+}
+
+.text h2
+{
+  font-size: 4em;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-bottom: 0rem;
+  margin-top: 300px;
+}
+.text h3
+{
+  /* font-size: 4em;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase; */
+}
+.text p
+{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: -60px;
+  margin-bottom: 1.3rem;
+  text-transform: uppercase;
+}
+
+.text a
+{
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid #fff;
+  color: hsla(0,0%,100%,.803);
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+.text a:hover
+{
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid #fff;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+/* .social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+} */
+/* .menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #03a9f4;
+} */
+
+
+
+
+
+/* Responsive  */
+
+/* Responsive  */
+@media (max-width: 1500px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 20px;
+  }
+
+  .logo-agape-nav{
+    width: 20%;
+  }
+  .text h2
+  {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  .text p {
+    font-size: 1.2em;
+    margin-top: -60px;
+  }
+
+  .text a {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .titre{
+    width: 50%;
+  }
+}
+
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 20px;
+  }
+
+  .logo-agape-nav{
+    width: 20%;
+  }
+  .text h2
+  {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  .text p {
+    font-size: 1.2em;
+    margin-top: -60px;
+  }
+
+  .text a {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  .titre{
+    width: 70%;
+  }
+}
+
+@media (max-width: 750px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 20px;
+  }
+
+  .logo-agape-nav{
+    width: 20%;
+  }
+  .text h2
+  {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  .text p {
+    font-size: 1.2em;
+    margin-top: -70px;
+  }
+
+  .text a {
+    font-size: 1rem;
+    padding: 9px 18px;
+  }
+  .titre{
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 20px;
+  }
+
+  .logo-agape-nav{
+    width: 20%;
+  }
+  .text h2
+  {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  .text p {
+    font-size: 1.2em;
+    margin-top: -57px;
+  }
+
+  .text a {
+    font-size: 1rem;
+    padding: 9px 18px;
+  }
+  .titre{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 20px;
+  }
+
+  .logo-agape-nav{
+    width: 20%;
+  }
+  .text h2
+  {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  .text p {
+    font-size: 1.2em;
+    margin-top: -50px;
+  }
+
+  .text a {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+  .titre{
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 20px;
+  }
+
+  .logo-agape-nav{
+    width: 20%;
+  }
+  .text h2
+  {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  .text p {
+    font-size: 1.2em;
+    margin-top: -40px;
+  }
+
+  .text a {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+  .titre{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 400px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 20px;
+  }
+
+  .logo-agape-nav{
+    width: 25%;
+  }
+  .text h2
+  {
+    font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  .text p {
+    font-size: 1.2em;
+    margin-top: -40px;
+  }
+
+  .text a {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+  .titre{
+    width: 100%;
+  }
+}
