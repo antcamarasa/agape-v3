@@ -2,7 +2,6 @@
 
 .citation{
   display: flex;
-  margin-top: ;
 }
 
 
@@ -55,5 +54,8 @@
     text-align: end;
     font-family: 'Noto Serif', serif;
     font-style: italic;
+  }
+  .citation{
+    margin-top: -50px;
   }
 }
