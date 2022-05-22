@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 40px 20px 0 20px;
+  margin: 0px 20px 0 20px;
 }
 
 .gallery .heading{
@@ -76,5 +76,4 @@
 }
 .gallery .heading h3{
   font-size: 1em;
-
 }
