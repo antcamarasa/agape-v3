@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+.gallery{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px 20px 0 20px;
+}
+
+.gallery .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.gallery .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;
+}
+
+.gallery .heading h3 span{
+  font-weight: 100;
+}
+.gallery .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.gallery .box .dream{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.gallery .box .dream img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.gallery .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.gallery .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 769px){
+    .gallery .box{
+   flex-direction: column;
+  }
+
+.gallery .box .dream{
+  width: 100%;
+}
+
+
+
+
+
+}
+
+@media only screen and (max-width: 643px){
+.gallery .heading{
+  width: 100%;
+}
+.gallery .heading h3{
+  font-size: 1em;
+
+}

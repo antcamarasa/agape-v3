@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+.citation{
+  display: flex;
+  margin-top: ;
+}
+
+.citation-txt{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding: 100px 0 50px 0;
+  font-size: 1.2rem;
+}
+
+.citation-author{
+  font-size: 1.2rem;
+  text-align: end;
+  font-family: 'Noto Serif', serif;
+}
+
+
+.citation-txt-1{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding: 100px 0 50px 0;
+  font-size: 1.5rem;
+}
+
+.citation-author-1{
+  font-size: 1.5rem;
+  font-family: 'Noto Serif', serif;
+}
+
+
+.citation-txt-2{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding: 100px 0 50px 0;
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.citation-author-2{
+  font-size: 1.2rem;
+  text-align: end;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+}
+
+
+@media only screen and (max-width: 769px){
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 643px){
+  .citation-txt{
+    font-size: 0.9rem;
+  }
+
+  .citation-author{
+    font-size: 0.9rem;
+  }
+
+  .citation-txt-1{
+    font-size: 1.2rem;
+  }
+
+  .citation-author-1{
+    font-size: 1.2rem;
+  }
+
+  .citation-txt-2{
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+
+  .citation-author-2{
+    font-size: 1.1rem;
+  }
+}

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 *
 {
   margin: 0;
@@ -149,6 +150,8 @@ header
   text-transform: uppercase;
 }
 
+
+
 /* .social
 {
   position: absolute;
@@ -279,7 +282,6 @@ header
   {
     padding: 20px;
   }
-
   .logo-agape-nav{
     width: 20%;
   }
@@ -292,7 +294,6 @@ header
     font-size: 1.2em;
     margin-top: -70px;
   }
-
   .text a {
     font-size: 1rem;
     padding: 9px 18px;
@@ -300,7 +301,14 @@ header
   .titre{
     width: 100%;
   }
+  .container .box{
+    flex-direction: column;
+  }
+  .container .box .dream{
+    width: 100%;
+  }
 }
+
 
 @media (max-width: 650px)
 {
@@ -330,7 +338,18 @@ header
   .titre{
     width: 100%;
   }
+  /* .container .box{
+    flex-direction: column;
+  }
+  .container .box .dream{
+    width: 100%;
+  } */
+
+  /* .container .heading{
+    width: 100%;
+  } */
 }
+
 
 @media (max-width: 600px)
 {
@@ -360,7 +379,9 @@ header
   .titre{
     width: 100%;
   }
+
 }
+
 
 @media (max-width: 500px)
 {
