@@ -52,15 +52,15 @@ header
 {
   /* position: absolute; */
   right: 0;
-  width: 100%;
+  /* width: 100%; */
   min-height: 100vh;
   padding: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #111;
+  background: rgba(15, 15, 15, 0);
   transition: 0.5s;
-  z-index: 2;
+  z-index: 999;
 }
 .showcase.active
 {
@@ -333,12 +333,6 @@ header
     padding: 9px 18px;
   }
   .titre{
-    width: 100%;
-  }
-  .container .box{
-    flex-direction: column;
-  }
-  .container .box .dream{
     width: 100%;
   }
 }
