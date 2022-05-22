@@ -12,13 +12,13 @@
   margin: 0 auto;
   padding-top: 100px;
   padding: 100px 0 15px 0;
-  line-height: 2.5rem;
-  font-size: 1.5rem;
+  line-height: 3rem;
+  font-size: 1.7rem;
   font-style: italic;
 }
 
 .citation-author-2{
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin-left: 450px;
   /* text-align: end; */
   font-family: 'Noto Serif', serif;
