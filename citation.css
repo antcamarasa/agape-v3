@@ -4,6 +4,8 @@
   display: flex;
 }
 
+.gallery-container{
+}
 
 .citation-txt-2{
   font-family: 'Noto Serif', serif;
@@ -56,7 +58,7 @@
     font-style: italic;
   }
   .citation{
-    margin-top: -50px;
+    margin-top: 0px;
     margin-bottom: 30px;
   }
 }
