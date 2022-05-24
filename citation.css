@@ -3,7 +3,7 @@
 .justify-signature{
   display: flex;
   /* flex-direction: row; */
-  justify-content: end;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -24,6 +24,7 @@
   margin: 0 20px;
   line-height: 1.7em;
   font-size: 1rem;
+  text-align: start;
 }
 
 
