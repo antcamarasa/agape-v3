@@ -7,6 +7,10 @@
   gap: 10px;
 }
 
+.signature{
+  font-size: 0.7rem;
+}
+
 .lettre{
   padding: 15px;
   border: 1px solid;
