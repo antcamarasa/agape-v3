@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Noto+Serif:ital@0;1&display=swap');
+
+.justify-signature{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: end;
+  gap: 10px;
+}
+
+.lettre{
+  padding: 15px;
+  border: 1px solid;
+  font-family: 'Bodoni Moda', serif;
+  width: 95%;
+  margin-bottom: 70px;
+  /* font-family: 'Noto Serif', serif; */
+}
+
+.citation-txt-3{
+  margin: 0 20px;
+  line-height: 1.7em;
+  font-size: 1rem;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 .citation{

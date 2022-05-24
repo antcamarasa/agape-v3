@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Noto+Serif:ital@0;1&display=swap');
+
 .gallery{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0px 20px 0 20px;
+  margin: 0px 0px 20px 0 20px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .gallery .heading{
