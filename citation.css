@@ -2,9 +2,11 @@
 
 .justify-signature{
   display: flex;
+  /* gap: 80px; */
+  font-size: 0.8rem;
   /* flex-direction: row; */
   justify-content: space-between;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .signature{
