@@ -73,7 +73,7 @@
   .citation-txt-2{
     font-family: 'Noto Serif', serif;
     text-align: center;
-    margin: -80px auto 0 auto;
+    margin: -70px auto 0 auto;
     padding: 0px 0 5px 0;
     /* line-height: 3rem; */
     font-size: 1rem;
@@ -83,6 +83,7 @@
 
   .citation-author-2{
     font-size: 1rem;
+    margin-bottom: 20px;
     margin-left: 0px;
     margin-right: 20px;
     text-align: end;
