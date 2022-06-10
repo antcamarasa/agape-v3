@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Noto+Serif:ital@0;1&display=swap');
 
+@font-face {
+  font-family: myFont;
+  src:url(charter-italic.ttf);
+}
+
+
+
 .justify-signature{
   display: flex;
   /* gap: 80px; */
@@ -16,7 +23,7 @@
 .lettre{
   padding: 15px;
   border: 1px solid;
-  font-family: 'Bodoni Moda', serif;
+  font-family: myFont;
   width: 95%;
   margin-bottom: 70px;
   /* font-family: 'Noto Serif', serif; */
